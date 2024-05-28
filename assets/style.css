@@ -317,6 +317,20 @@ input[type="submit"] {
 	}
 }
 
+footer {
+	background-color: black;
+	color: white;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1%;
+}
+
+.footer-phoneNumber {
+	color: white;
+}
+
 @media all and (max-width: 650px) {
 	.top-header {
 		flex-direction: column;
